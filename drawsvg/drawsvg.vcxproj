@@ -30,7 +30,6 @@
     <ClInclude Include="..\src\svg_renderer.h" />
     <ClInclude Include="..\src\texture.h" />
     <ClInclude Include="..\src\triangulation.h" />
-    <ClInclude Include="..\src\viewport.h" />
   </ItemGroup>
   <PropertyGroup Label="Globals">
     <ProjectGuid>{417DF064-335C-41E9-91D7-83897D60CA72}</ProjectGuid>

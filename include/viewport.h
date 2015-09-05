@@ -2,7 +2,6 @@
 #define CMU462_VIEWPORT_H
 
 #include "CMU462.h"
-#include "svg.h"
 
 namespace CMU462 {
 
