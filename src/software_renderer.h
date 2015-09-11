@@ -142,14 +142,14 @@ public:
 	SoftwareRendererRef() : SoftwareRenderer() { }
 
 	// draw an svg input to render target
-	void draw_svg(SVG& svg){}
+	void draw_svg(SVG& svg);
 
 	// set sample rate
-	void set_sample_rate(size_t sample_rate) {}
+	void set_sample_rate(size_t sample_rate);
 
 	// set render target
 	void set_render_target(unsigned char* target_buffer,
-		size_t width, size_t height){}
+		size_t width, size_t height);
 
  private:
 

@@ -81,32 +81,20 @@ public:
 
 	Sampler2DRef(SampleMethod method = TRILINEAR) : Sampler2D(method) { }
 
-	void generate_mips(Texture& tex, int startLevel){}
+	void generate_mips(Texture& tex, int startLevel);
 
   Color sample_nearest(Texture& tex,
-	  float u, float v,
-	  int level = 0)
-  {
-	  Color c;
-	  return c;
-  }
+		float u, float v,
+		int level = 0);
 
   Color sample_bilinear(Texture& tex,
 	  float u, float v,
-	  int level = 0)
-  {
-	  Color c;
-	  return c;
-  }
+	  int level = 0);
 
   Color sample_trilinear(Texture& tex,
 	  float u, float v,
-	  float u_scale, float v_scale)
-  {
-	  Color c;
-	  return c;
-  }
-  
+	  float u_scale, float v_scale);
+
 }; // class sampler2DRef
 
 } // namespace CMU462
