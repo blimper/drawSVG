@@ -7,3 +7,4 @@ Just open "drawsvg.sln" in Visual Studio 2013.
 
 If there is a error message saying "can't find 'glew32.dll'", then just copy glew32.dll and glew32d.dll under the "lib" folder into this folder: C:\Windows\SysWOW64
 
+#drawSVG
